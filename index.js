@@ -121,7 +121,7 @@ app.post("/split-payments/compute", (req, res) => {
         SplitBreakdown: all
     }
 
-    res.send(result).status(200)
+    res.status(200).send(result)
 
 })
 
